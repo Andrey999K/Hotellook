@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotellook.ru</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Hotellook.ru</h1>
+    <main>
+
+        <section class="wrapper">
+            <form class="form-search">
+                <div class="wrapper__search">
+                    <div class="input" style="display: block;">
+                        <label>Город
+                            <input type="text" class="input__cities-from"
+                                required>
+                        </label>
+                        <ul class="dropdown dropdown__cities-from"></ul>
+                    </div>
+                </div>
+
+                <div class="wrapper__button">
+                    <button type="submit" class="button button__search">
+                        <span class="button__search-text">Найти отели</span>
+                    </button>
+                </div>
+            </form>
+        </section>
+        <section class="wrapper">
+            <section class="block__ticket" id="other-cheap-tickets"
+                style="display: none;"></section>
+        </section>
+
+        <img class="load" width="50" style="display: none;"
+            src="https://i.gifer.com/origin/b4/b4d657e7ef262b88eb5f7ac021edda87_w200.webp"
+            alt="">
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+
+<!--  -->
