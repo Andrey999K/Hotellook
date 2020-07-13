@@ -190,7 +190,7 @@ formSearch.addEventListener("submit", event => {
     if (cityFrom) {
         const city_hotel = cityFrom.id;
         const requestData =
-            `http://engine.hotellook.com/api/v2/static/hotels.json?locationId=${city_hotel}&token=${API_KEY}`;
+            `https://engine.hotellook.com/api/v2/static/hotels.json?locationId=${city_hotel}&token=${API_KEY}`;
         getData(requestData, data => {
 
             let hotels_ = JSON.parse(data);
